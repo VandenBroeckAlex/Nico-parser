@@ -1,0 +1,297 @@
+================================================================================
+FICHE BILAN SCALENEO - VERSION TEXTE OPTIMISÉE v3 App
+SEMAINE 0 (BILAN INITIAL)
+Patient: Sophie BENOIT
+Date: 25/01/2026
+================================================================================
+SECTION 1: INFORMATION ADMINISTRATIVE
+================================================================================
+
+Nom et prénom du Patient: BENOIT Sophie
+Année de Naissance: 1988
+Age: 37 ans
+Sexe: F
+Profession: ☐ Manuel | ☒ Non-manuel | ☐ Hybride | Secteur: Ressources Humaines - Manager
+
+Kiné Examinateur: Laurent Mercier
+Date Bilan: 25/01/2026
+ID Patient: PAT-2026-0912
+ID Bilan: BIL-2026-0912-S0
+
+================================================================================
+SECTION 2: DONNÉES ANTHROPOMÉTRIQUES
+================================================================================
+
+Poids (kg): 65
+Taille (cm): 168
+IMC Calculé: 23,0 (normal)
+
+================================================================================
+SECTION 3: PATHOLOGIE LOMBAIRE
+================================================================================
+
+Antécédents LBP (Oui/Non): Non
+Episode Initial: Premiers symptômes il y a 4 semaines (janvier 2026)
+Traumatisme, progressif ou spontané: Spontané - début brutal sans traumatisme identifié
+Récidive (Oui/Non): Non - premier épisode
+Pire Episode: Episode actuel - pire douleur jamais ressentie
+Durée Totale LBP (mois): 1 mois
+Type LBP: Aigu (0-6 semaines, en cours)
+
+================================================================================
+SECTION 4: SYMPTÔMES - INTENSITÉ DOULEUR (NRS 0-10)
+================================================================================
+
+NRS Douleur au Repos: 4/10
+NRS Douleur à l'Activité: 7/10
+NRS Douleur Maximum: 8/10
+
+Horaire Douleur (Matin/Midi/Soir/Nuit): Pire le matin au réveil (raideur 30min), améliore progressivement en journée avec mobilisation, aggravation fin après-midi après travail bureau
+Variation Journalière: Douleur maximale matin (8/10), minimale midi après mobilisation (5/10), réaugmentation fin d'après-midi (7/10), douleur nocturne interruption sommeil 2-3x/semaine
+Facteurs Aggravants: Position assise prolongée (>30min), tousser, Valsalva, levée de charges légères (>2kg), flexion avant, mouvements brusques, activités domestiques, marche sur terrains inégaux
+Facteurs Soulageants: Repos allongé position fléchie (améliore 2-3 points), antalgiques (ibuprofène 400mg améliore 2-3 points, depuis 1 semaine), massages doux par partenaire, mobilisation active douce, application chaleur
+Évolution: Progression en 3 phases: Semaine 1 = douleur extrême 9/10 incapacité quasi-totale; Semaine 2-3 = plateau douleur 7-8/10 avec légère amélioration; Semaine 4 (actuelle) = stabilisation 6-7/10 avec amélioration douleur du sommeil
+
+================================================================================
+SECTION 5: MÉCANISMES DE DOULEUR (Cocher: 1=Oui, 0=Non)
+================================================================================
+
+Douleur Articulaire: 1
+Douleur Myofasciale: 1
+Douleur Neurologique: 0
+Sensibilisation Centrale (nociceptive, neuropathique ou nociplastique): 0
+Déficit Sensorimotor: 1
+
+Caractère sensations: ☒ Sourde | ☐ Aiguë | ☒ Brûlante | ☐ Piquante | ☐ Irradiante | ☐ Engourdie
+(Douleur localisée région lombaire basse, prédominance gauche L5-S1, caractère sourde profonde avec paroxysmes brûlants lors mouvements)
+
+Observations Mécanismes: Douleur mécanique aiguë prédominante (90%). Probable entorse ligamentaire ou dysfonctionnement articulaire L5-S1 sans dommage neurologique (pas de radiculalgie, tests neuro normaux). Composante musculaire secondaire (spasme réactionnel). Pas de sensibilisation centrale (CSI faible). Déficit de contrôle sensorimoteur probable secondaire à spasme protecteur et inhibition douleur.
+
+================================================================================
+SECTION 6: TESTS FONCTIONNELS - MOBILITÉ LOMBAIRE - TESTS NEURODYNAMIQUES - SIGNES NEUROLOGIQUES 
+================================================================================
+
+Flexion Avant (cm/grade): 45 cm / Grade 4 | (NRS 0-10): 7
+Extension (cm/grade): 10° / Grade 4 | (NRS 0-10): 7
+Inclinaison Latérale Droit (cm/grade): 25° / Grade 4 | (NRS 0-10): 5
+Inclinaison Latérale Gauche (cm/grade): 18° / Grade 4 | (NRS 0-10): 8
+Rotation droite(degré/grade): 25° / Grade 4 | (NRS 0-10): 6
+Rotation Gauche(degré/grade): 20° / Grade 4 | (NRS 0-10): 7
+Combinaison de mouvements (mouvements/grade) : Flexion-rotation gauche extrêmement limitée | (NRS 0-10): 9
+Mobilité segmentaire PA (étage/grade): L5-S1 Grade 3 / L4-L5 Grade 2 | (NRS 0-10): 7
+Hanche (mouvements/grade): Flexion 85°/Grade 3, Extension 8°/Grade 3, Abduction 30°/Grade 3 | (NRS 0-10): 3
+
+SLR Droit (degrés): 70°
+SLR Gauche (degrés): 65°
+Asymétrie SLR: 5°
+Slump test (degrés): ☒ Complet ☐ Limité | ☐ Modif cerv ☐ Modif à distance | ☐ Asymétrie   
+PKB (degrés): ☒ Complet ☐ Limité | ☐ Modif cerv ☐ Modif à distance | ☐ Asymétrie
+
+Force musculaire (MRC scale 0-5): 5/5 bilatéralement	
+Réflexes (Oui/Non): Normaux bilatéralement - Rotulien +2, Achilléen +2
+Sensation: ☒ Piquer/Toucher | ☒ Sensibilité fine | ☒ Chaud/Froid | Localisation: Normal bilatéral, dermatomes L5-S1 symétriques
+Profil sensoriel: ☒ Normal | ☐ Hypoesthésie | ☐ Allodynie | ☐ Hyperalgésie
+Signes méningés ☒ Négatifs | ☐ Kernig ☐ Brudzinski 
+
+Tension musculaire: ☐ Normale | ☐ Légère | ☒ Importante
+Trigger points ☐ Absent | ☒ Présent | Localisation: Érecteurs du rachis gauches L5-S1, quadratus lumborum gauche, glute maximus gauche
+Hypersensibilité à la pression (Oui/Non): Zone lombaire: Seuil ~1.5 kg/cm² | Zone contrôle: ~4.5 kg/cm² 
+Spasme musculaire: ☐ Absent | ☒ Présent | ☒ Fatiguabilité | Localisation: Érecteurs, paravertébraux bilatéraux avec prédominance gauche, quadratus lumborum
+ 
+Sorensen (secondes): 60 sec (anormalement bas, patient arrête pour douleur)
+Ito Shirado (secondes): 45 sec (très bas, patient incapable maintenir stabilité abdominale)
+Core Strength Index: 0,75 (ratio faible, débalance majeure extenseurs suractivés)
+Side plank D/G (secondes): 35 sec / 28 sec (tous deux très réduits, asymétrie en faveur droit)
+CSM (Plank, Pelvic tilt, Bridge,...): Plank initial 15 sec, Pelvic tilt dysfonctionnel, Bridge 20 sec avec tremblements majeurs
+
+================================================================================
+SECTION 7: QUESTIONNAIRES VALIDÉS - SCORES [À remplir si indiqué]
+================================================================================
+SBT (STarT Back Screening Tool, 0-9): 4/9
+  Interprétation: Risque Faible-Modéré (score physique 3/4, psychosocial 1/5)
+
+CSI Score (Central Sensitization Inventory, 0-100): 18/100
+  Interprétation: Faible (<30)
+
+ODI Score (Oswestry Disability Index, 0-100): 52/100
+  Interprétation: Modéré (40-60)
+  (Douleur 4/5, soin personnel 4/5, assise 5/5, debout 4/5, marche 3/5, vie sociale 2/5, sommeil 3/5)
+
+PCS Score (Pain Catastrophizing Scale, 0-52): 16/52
+  Interprétation: Faible (<17) - borderline
+
+HADS Score Anxiété (0-21): 6/21 (normal)
+HADS Score Dépression (0-21): 3/21 (normal)
+
+FABQ Score Travail (0-100): 18/100 (faible peur-évitement)
+FABQ Score Activité (0-100): 14/100 (très faible peur-évitement)
+
+WAI Score (Work Ability Index, 0-100): 28/100 (capacité travail temporairement réduite)
+IPAQ (International Physical Activity): ☒ Sédentaire ☐ Modéré ☐ Vigoureux | MET(min/week): 600
+PSFS (Patient-Specific Functional Scale, 0-10) Activités limitantes: 
+- Activité 1: "Travailler au bureau sans douleur (travail informatique)" Score: 2/10
+- Activité 2: "Jogging matinal 30min (loisir régulier 4-5x/sem avant douleur)" Score: 0/10
+- Activité 3: "Fare du ménage et courses sans limitation" Score: 1/10
+
+SF-36 ou EQ-5D (Qualité de vie): EQ-5D Score: 55/100
+
+Autres Questionnaires: Aucun
+
+================================================================================
+SECTION 8: DRAPEAUX ROUGES & PRÉCAUTIONS
+================================================================================
+
+Drapeaux Rouges Détectés (Oui/Non): Non
+  Si Oui, lesquels: N/A
+
+Contre-Indications: Aucune absolue (manipulation à différer, mobilisations douces appropriées)
+Allergies: Pénicilline (antécédent urticaire légère)
+Médications Pertinentes: Ibuprofène 400mg 3x/jour depuis 1 semaine; Contraceptif oral (Yaz) depuis 5 ans
+Examen médicaux : Pas d'imagerie réalisée. Examen médecin généraliste : "Entorse lombaire probable L5-S1, mécanique, début aigu"
+
+Instabilité rachidienne: ☐ Suspectée ☐ Présente ☒ À vérifier | Signes: Pas de signes d'instabilité vraie; limitation sévère amplitude probablement due spasme protecteur et douleur aiguë
+Limitation traitement manuel: ☐ Manipulation contre-indiquée | ☒ Mobilisation légère seulement | ☐ Pas de limite
+Anticoagulation/Trouble hémorragique: ☒ Non | Traitement: N/A
+Grossesse: ☒ N/A ☐ Oui | Adaptations: N/A
+État général: ☒ Stable ☐ Consultation médicale recommandée
+
+================================================================================
+SECTION 9: Mécanismes douleur 
+================================================================================
+
+ ☒ Motif articulaire (L5-S1 probable entorse/dysfonctionnement)
+ ☒ Motif myofascial (spasme protecteur marqué, triggers points)
+ ☐ Motif neural (tests neurodynamiques normaux)
+ ☐ Sensibilisation centrale (CSI faible)
+ ☒ Contrôle sensorimoteur (inhibition douleur majeure)
+
+================================================================================
+SECTION 10: PLAN DE GESTION & RECOMMANDATIONS
+================================================================================
+
+Fréquence Thérapie (séances/semaine): 3 séances/semaine pendant 2 semaines, puis 2 séances/semaine pendant 2 semaines, puis 1 séance/semaine pendant 2-4 semaines
+
+Thérapie Manuelle (Oui/Non): 1
+  Types TM si Oui: Mobilisations PA très progressives L5-S1 (amplitude 5-10mm max), relâchement myofascial digital doux paravertébraux, pas de pression directe zone chaude. Phase 2 : mobilisations progressives légères, massage plus assertive trigger points.
+
+Thérapie par Exercice (Oui/Non): 1
+  Types Exercices: Phase 1 (Sem 1-2): Allongé décubitus dorsal avec coussin sous genoux, rotation pelvienne très douce, respiration diaphragmatique, marchette domicile 5-10min. Phase 2 (Sem 3-4): Quadrupédie statique, dead bug simplifié, mobilité hanche, marche progressif. Phase 3 (Sem 5+): Mobilité lombaire progressive, core activation.
+
+Thérapie par Neurodynamique (Oui/Non): 0
+
+Éducation Patient (Oui/Non): 1
+  Sujets Éducation: Explication mécanisme douleur (entorse probable, pas dommage permanent), douleur ≠ dommage, postures soulageantes, activités à éviter phase aigüe, gestion douleur antalgiques, attentes réalistes 4-8 semaines.
+
+Modalités Supplémentaires: Repos partiel 1 semaine, télétravail/congé court possible, chaleur local avant exercices, AINS régulier 1-2 semaines, support lombaire bureau, éviter jogging complètement pendant 4-6 semaines, pas de ceinture.
+
+================================================================================
+SECTION 11: Perspectives et croyances du patient
+================================================================================
+Compréhension du diagnostic par le patient: ☒ Oui ☐ Partiellement ☐ Non | Inquiétudes: Comprend "entorse du bas du dos". Inquiétudes modérées concernant reprise jogging et risque hernie. Rassurée par examen normal médecin.
+Perception de gravité: ☐ Bénigne ☒ Modérée ☐ Grave ☐ Catastrophe
+Auto-efficacité face à la douleur: ☐ Faible ☒ Modérée ☐ Bonne | Croyance contrôle: Patient croit modérément qu'elle peut améliorer douleur via traitement; motivée par objectif retour jogging; attitude positive.
+
+================================================================================
+SECTION 12: PRONOSTIC
+================================================================================
+
+Durée Estimée Traitement: Courte (2-4 semaines) pour amélioration majeure; Modérée (4-8 semaines) pour remission
+
+Nombre de Séances Espérées: 12-16 séances
+
+Facteurs Pronostiques Positifs: Premier épisode, âge jeune (37 ans), bonne condition physique préalable (jogging régulier), bonne compréhension, peu d'anxiété/catastrophisme, pas de sensibilisation centrale, motivation élevée, pas de red flags, tests neuro normaux, pas de dépression, soutien partner.
+
+Facteurs Pronostiques Négatifs: Douleur aigüe très intense (8/10), limitation majeure mobilité et fonction, spasme musculaire important, incapacité travail temporaire possible, phase aigüe exige management prudent.
+
+Objectifs à Court Terme (2-4 sem): NRS repos 4→2/10, NRS activité 7→4/10, mobilité lombaire amélioration, sommeil amélioration, marche 20-30min, reprise travail partiel/complet, compréhension mécanisme douleur.
+Objectifs à Long Terme (8-12 sem): Remission douleur 0-1/10, mobilité normalisée, retour jogging 30-45min 4-5x/sem, capacité travail 100%, endurance core normalisée, prévention récidive via programme entretien.
+Attentes réalistes: ☒ Oui ☐ Partiellement ☐ Non | Détail: Patient anticipe amélioration 2-3 semaines et remission 6-8 semaines; accepte progressivité; optimiste.
+Patient anticipe guérison: ☒ Complète ☐ Partielle ☐ Chronique
+
+Yellow Flags : Détails: Aucun yellow flag majeur détecté
+Soutien social: ☒ Bon ☐ Modéré ☐ Faible | Détail: Vit en couple depuis 7 ans, partenaire très supportif; famille proche; amis jogging group.
+Stresseurs identifiés: ☒ Travail ☒ Autre (incertitude récupération/impact capacité travail) | Détail: Stress travail modéré (manager RH, responsabilités, deadline); stress principal = incertitude retour à normalité.
+
+Point de réévaluation: Semaine: 2 | Critères changement: NRS repos 4→2-3/10, NRS activité 7→5-6/10, sommeil amélioré, tolérance mobilisation établie. Si plateau/exacerbation, ajustement thérapie.
+Besoin orientation spécialisée: ☒ Non ☐ Oui | Autres: Pas indication à ce stade
+Barrières anticipées au traitement: Peur aggravation douleur lors mobilisation, impatience reprise activité, stress travail. Management psychologique important.
+
+================================================================================
+SECTION 13: Activités et participation
+================================================================================
+
+Activités quotidiennes limitées: ☐ Marche | ☒ Assise | ☒ Levage | ☒ Escaliers | ☒ Toilette | ☒ Sexualité | ☒ Sommeil
+Loisirs/Sports limitées: Activités antérieures: Jogging 30-45min 4-5x/sem, yoga 1x/sem, natation été, randonnée weekend | Actuellement: Toutes arrêtées (incapacité majeure)
+Temps assis/debout toléré (minutes): Assis: 20-30 min | Debout: 15-20 min | Marche: 5-10 min
+Comportement sédentaire (heures): Temps assis quotidien: 4-5h | Écran: 2-3h
+
+Statut professionnel: ☒ Actif | ☐ Congé maladie | ☐ Incapacité | ☐ Arrêt | ☐ Sans activité/retraité
+Jours d'absence travail: Derniers 3 mois: 3 jours depuis début douleur | 6 mois: 3 jours
+Limitations professionnelles: Tâches impossibles: Réunions debout >15min, déplacements multiples, port documents lourds, conduite longue | Tâches difficiles: Réunions assis >1h, travail informatique continu, marche corridor fréquente
+Attentes Retour au Travail : Délai anticipé: 2-3 semaines pour retour progressif; 6-8 sem pour retour complet | Confiance: ☒ Élevée ☐ Modérée ☐ Faible
+Modifications poste possibles: ☒ Oui ☐ Non | Type: Télétravail temporaire, bureau ergonomique, réduction réunions debout, horaires flexibles.
+
+================================================================================
+SECTION 14: Facteurs contribuants
+================================================================================
+
+Défauts posturaux identifiés: ☐ Hyperlordose ☐ Dos plat | ☒ Scoliose | ☐ Tête antépulsé | ☐ Bassin antéversé
+Facteurs biomécaniques: ☒ Charge de travail ☒ Posture ☐ Mouvement répété ☐ Vibrations | Autre: Jogging intensif probable facteur mineur charge lombaire
+Facteurs de style de vie: ☐ Tabac ☐ Alcool ☐ Obésité ☐ Inactivité ☐ Sommeil ☐ Nutrition
+Facteurs hormonaux/métaboliques: ☐ Ménopause ☐ Diabète ☐ Thyroïde ☐ Inflammation | Autre: Aucun facteur connu
+Contexte de travail ergonomique: Poste optimisé: ☐ Oui ☒ Non | Recommandations: Écran hauteur suboptimale (trop bas), chaise ergonomique basique, pas repose-pieds, pauses non systématisées.
+
+Facteurs psychosociaux majeurs: ☐ Peur-évitement ☐ Catastrophisme ☐ Dépression ☐ Anxiété ☒ Stress
+Système santé/Culture: Conception biopsychosociale: ☒ Bien comprise ☐ À développer
+Attentes culturelles de traitement: Attente guérison rapide: ☒ Oui ☐ Non | Approche préférée: Attente amélioration 2-3 semaines, retour activité 6-8 semaines. Préfère approche manuelle + exercice.
+Compliance anticipée: ☒ Bonne ☐ Modérée ☐ À questionner | Barrières: Impatience reprise activité.
+
+================================================================================
+SECTION 15: Satisfaction
+================================================================================
+
+	
+Treatment Satisfaction Score (0-100) : À remplir | Relation thérapeute: À remplir
+GAS (Goal Attainment Scaling): Progression objectives: À remplir
+
+================================================================================
+SECTION 16: OBSERVATIONS CLINIQUES & NOTES
+================================================================================
+
+Résumé Clinique: Patiente 37 ans, première lombalgie aigüe depuis 4 semaines, probable entorse L5-S1 avec spasme protecteur majeur. Douleur 8/10 initial améliorée légèrement à 6-7/10 après 1 semaine AINS. Limitation majeure mobilité lombaire tous azimuts (Grade 4), probablement due douleur aiguë et spasme. Tests neurodynamiques normaux, pas radiculalgie. Endurance core réduite. Pas de sensibilisation centrale, peu d'anxiété/catastrophisme. Excellents facteurs pronostiques : jeune, première episode, bonne condition physique, motivation élevée.
+
+Observations globales: Patient très motivée et coopérative, attitude positive. Bonne communication et compréhension. Spasme musculaire très important mais probablement transitoire. Pas d'éléments neurologique alarmants. Très bonne candidate pour traitement kiné rapide. Besoin reassurance progressivité et timing retour activité.
+
+Impression Générale: Cas d'entorse lombaire aigüe avec excellent pronostic. Patiente jeune, active, bien motivée, bons facteurs psychosociaux. Gestion conservative par kiné phase-progressif indiquée et probablement très efficace. Attente 2-4 semaines pour amélioration majeure, 6-8 semaines remission réaliste.
+
+Notes Supplémentaires: Patient utilise AINS régulier (efficacité modérée). Jogging group important soutien social - communication impact temporaire souhaitable.
+
+================================================================================
+SECTION 17: Hypothèse de travail (SCALENEO)
+================================================================================
+
+1. PATHOLOGY: Probable entorse ligamentaire et/ou dysfonctionnement facettaire L5-S1 sans dommage neurologique.
+2. SOURCES OF SYMPTOMS: Primaire : articulation L5-S1; Secondaire : spasme protecteur paravertébraux, quadratus lumborum.
+3. PAIN TYPE: Nociceptive articulaire (80%) + myofasciale réactionnelle (20%), phase aigüe. Pas neurologique/centrale.
+4. IMPAIRMENTS: Mobilité majeure limitation Grade 4; Force/Endurance inhibition douleur dominante; Contrôle déficit majeur; Fonction incapacité majeure.
+5. PAIN MECHANISMS: Nociceptif articulaire prédominant via stimulation structure inflammatoire L5-S1.
+6. PRECAUTIONS: Manipulation CONTRE-INDIQUÉE phase aigüe; mobilisations très progressives; éviter exacerbation douleur.
+7. PATIENTS' PERSPECTIVES: Excellent : peu d'anxiété, bonne compréhension, motivation élevée, attentes réalistes.
+8. ACTIVITY & PARTICIPATION: Limitations majeures actuelles; excellent potentiel restauration complet.
+9. CONTRIBUTING FACTORS: Scoliose légère probable mineur; ergonomie travail suboptimale; stress travail modéré.
+10. MANAGEMENT & PROGNOSIS: Approche conservative 6-8 semaines, pronostic EXCELLENT.
+
+================================================================================
+SECTION 18: CONTRÔLE QUALITÉ
+================================================================================
+
+Confiance Extraction (estimée %): 95%
+Données Complètes (Oui/Non): Oui
+Révision Manuelle Requise (Oui/Non): Non
+
+Modifié Par: Laurent Mercier (Kiné examinateur)
+Date Modification: 25/01/2026
+
+================================================================================
+FIN FICHE BILAN - SEMAINE 0
+================================================================================
