@@ -44,8 +44,6 @@ export const mecanismeDouleurSchema: MecanismeDouleurSchema[] = [
 
 //TODO more than one sensation possible
 function parseSensation(line: string):  Sensation {
-    console.log("hello")
-    console.log(line)
     const parts = line.split(" | ");
     let sensation: Sensation | undefined;
 

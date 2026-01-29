@@ -5,6 +5,10 @@ import {AntropoMetric, antropoMetricSchema} from "./models/antropometric"
 import { PathologieLombaire, pathologieLombaireSchema } from "./models/pathologieLombaire";
 import { Symptome, symptomeSchema } from "./models/symptome";
 import { MecanismeDouleur, mecanismeDouleurSchema } from "./models/mecanismeDouleur";
+import { Satisfaction, satisfactionSchema } from "./models/satisfaction";
+import { Observation, observationSchema, ObservationSchema } from "./models/observationEtNotes";
+
+
 import * as fs from 'fs';
 const Sections  = fs.readFileSync('file.txt','utf8').split("SECTION")
 
@@ -15,29 +19,69 @@ let antropoMetric =  new AntropoMetric()
 let pathologieLombaire = new PathologieLombaire()
 let symptome = new Symptome()
 let mecaDouleur = new MecanismeDouleur()
+let satisfaction = new Satisfaction()
+let observationEtNotes = new Observation()
+
+
+type SectionHandler = {
+  match: string;
+  target: unknown;
+  schema: unknown;
+};
+
+const SECTION_HANDLERS: SectionHandler[] = [
+  {
+    match: "FICHE BILAN SCALENEO",
+    target: header,
+    schema: headerSchema,
+  },
+  {
+    match: "INFORMATION ADMINISTRATIVE",
+    target: infoAdmin,
+    schema: infoAdminSchema,
+  },
+  {
+    match: "DONNÉES ANTHROPOMÉTRIQUES",
+    target: antropoMetric,
+    schema: antropoMetricSchema,
+  },
+  {
+    match: "PATHOLOGIE LOMBAIRE",
+    target: pathologieLombaire,
+    schema: pathologieLombaireSchema,
+  },
+  {
+    match: "SYMPTÔMES - INTENSITÉ DOULEUR (NRS 0-10)",
+    target: symptome,
+    schema: symptomeSchema,
+  },
+  {
+    match: "MÉCANISMES DE DOULEUR (Cocher: 1=Oui, 0=Non)",
+    target: mecaDouleur,
+    schema: mecanismeDouleurSchema,
+  },
+  {
+    match: ": Satisfaction",
+    target: satisfaction,
+    schema: satisfactionSchema,
+  },
+  {
+    match: "OBSERVATIONS CLINIQUES & NOTES",
+    target: observationEtNotes,
+    schema: observationSchema,
+  },
+];
+
 // Their is probably better than this awful else if list
 //It work for now
-Sections.forEach((section, index) => {
-    
+Sections.forEach(section => {
+  const handler = SECTION_HANDLERS.find(h =>
+    section.includes(h.match)
+  );
 
-    if(section.includes("FICHE BILAN SCALENEO")){
-        BuildObject(section,header,headerSchema)
-    }
-    else if(section.includes("INFORMATION ADMINISTRATIVE")){
-        BuildObject(section,infoAdmin,infoAdminSchema)
-    }
-    else if(section.includes("DONNÉES ANTHROPOMÉTRIQUES")){
-        BuildObject(section,antropoMetric,antropoMetricSchema)
-    }
-    else if(section.includes("PATHOLOGIE LOMBAIRE")){
-        BuildObject(section,pathologieLombaire,pathologieLombaireSchema)
-    }
-    else if(section.includes("SYMPTÔMES - INTENSITÉ DOULEUR (NRS 0-10)")){
-        BuildObject(section,symptome,symptomeSchema)
-    }
-    else if(section.includes("MÉCANISMES DE DOULEUR (Cocher: 1=Oui, 0=Non)")){
-        BuildObject(section,mecaDouleur,mecanismeDouleurSchema)
-    }
+  if (handler) {
+    BuildObject(section, handler.target, handler.schema);
+  }
 });
     console.log(header)
     console.log(infoAdmin)
@@ -45,7 +89,8 @@ Sections.forEach((section, index) => {
     console.log(pathologieLombaire)
     console.log(symptome)
     console.log(mecaDouleur)
-
+    console.log(satisfaction)
+    console.log(observationEtNotes)
 
 function BuildObject(section : string, objectToBuild : any , _schema : any){
 
