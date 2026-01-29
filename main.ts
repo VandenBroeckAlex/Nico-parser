@@ -1,10 +1,10 @@
 
 import {Header, headerSchema} from "./models/header"
-import{InfoAdmin, Profession, infoAdminSchema} from "./models/infoAdmin"
+import {InfoAdmin, infoAdminSchema} from "./models/infoAdmin"
 import {AntropoMetric, antropoMetricSchema} from "./models/antropometric"
 import { PathologieLombaire, pathologieLombaireSchema } from "./models/pathologieLombaire";
 import { Symptome, symptomeSchema } from "./models/symptome";
-
+import { MecanismeDouleur, mecanismeDouleurSchema } from "./models/mecanismeDouleur";
 import * as fs from 'fs';
 const Sections  = fs.readFileSync('file.txt','utf8').split("SECTION")
 
@@ -14,7 +14,7 @@ let infoAdmin = new InfoAdmin()
 let antropoMetric =  new AntropoMetric()
 let pathologieLombaire = new PathologieLombaire()
 let symptome = new Symptome()
-
+let mecaDouleur = new MecanismeDouleur()
 // Their is probably better than this awful else if list
 //It work for now
 Sections.forEach((section, index) => {
@@ -35,13 +35,16 @@ Sections.forEach((section, index) => {
     else if(section.includes("SYMPTÔMES - INTENSITÉ DOULEUR (NRS 0-10)")){
         BuildObject(section,symptome,symptomeSchema)
     }
+    else if(section.includes("MÉCANISMES DE DOULEUR (Cocher: 1=Oui, 0=Non)")){
+        BuildObject(section,mecaDouleur,mecanismeDouleurSchema)
+    }
 });
     console.log(header)
     console.log(infoAdmin)
     console.log(antropoMetric)
     console.log(pathologieLombaire)
     console.log(symptome)
-
+    console.log(mecaDouleur)
 
 
 function BuildObject(section : string, objectToBuild : any , _schema : any){
