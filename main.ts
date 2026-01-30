@@ -8,7 +8,7 @@ import { MecanismeDouleur, mecanismeDouleurSchema } from "./models/mecanismeDoul
 import { Satisfaction, satisfactionSchema } from "./models/satisfaction";
 import { Observation, observationSchema } from "./models/observationEtNotes";
 import { Hypothese,hypotheseSchema } from "./models/hypothese";
-
+import { ControleQuality, controleQualitySchema } from "./models/controleQuality";
 import * as fs from 'fs';
 const Sections  = fs.readFileSync('file.txt','utf8').split("SECTION")
 
@@ -22,6 +22,8 @@ let mecaDouleur = new MecanismeDouleur()
 let satisfaction = new Satisfaction()
 let observationEtNotes = new Observation()
 let hypothese = new Hypothese()
+let controleQuality = new ControleQuality()
+
 
 type SectionHandler = {
   match: string;
@@ -75,6 +77,11 @@ const SECTION_HANDLERS: SectionHandler[] = [
     target: hypothese,
     schema: hypotheseSchema,
   },
+  {
+    match: "CONTRÔLE QUALITÉ",
+    target: controleQuality,
+    schema: controleQualitySchema,
+  },
 ];
 
 // Their is probably better than this awful else if list
@@ -98,6 +105,7 @@ Sections.forEach(section => {
     console.log(satisfaction)
     console.log(observationEtNotes)
     console.log(hypothese)
+    console.log(controleQuality)
 // ------------------------------------
 
 function BuildObject(section : string, objectToBuild : any , _schema : any){
@@ -121,7 +129,7 @@ function BuildObject(section : string, objectToBuild : any , _schema : any){
 
 
 function SeparateLines(section : string) : string[]{
-    return section.split(/\r?\n/);
+    return section.split("\n");
 } 
 
 
