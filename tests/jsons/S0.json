@@ -1,0 +1,195 @@
+{
+  "meta": {
+    "document_title": "FICHE BILAN SCALENEO - VERSION TEXTE OPTIMISÉE v3 App",
+    "week": 0,
+    "type": "Bilan initial",
+    "name": "Sophie BENOIT",
+    "date": "25/01/2026"
+  },
+
+
+  "section_1_administrative": {
+    "full_name": "BENOIT Sophie",
+    "birth_year": 1988,
+    "age": 37,
+    "sex": "F",
+    "profession": {
+      "type": "Non-manuel",
+      "sector": "Ressources Humaines",
+      "role": "Manager"
+    },
+    "examiner": "Laurent Mercier",
+    "assessment_date": "25/01/2026",
+    "patient_id": "PAT-2026-0912",
+    "assessment_id": "BIL-2026-0912-S0"
+  },
+
+  "section_2_anthropometry": {
+    "weight_kg": 65,
+    "height_cm": 168,
+    "bmi": {
+      "value": 23.0,
+      "classification": "normal"
+    }
+  },
+
+  "section_3_pathology": {
+    "previous_lbp": false,
+    "initial_episode": "Premiers symptômes il y a 4 semaines (janvier 2026)",
+    "onset_type": "Spontané - début brutal sans traumatisme identifié",
+    "recurrence": {
+        "value" :false,
+        "comment" : "premier épisode"
+    },
+    "worst_episode": {
+        "value" : "Episode actuel",
+        "comment" : "pire douleur jamais ressentie"
+    },
+    "duration_months": 1,
+    "type": "Aigu (0-6 semaines, en cours)"
+  },
+
+  "section_4_pain_intensity": {
+    "nrs": {
+      "rest": 4,
+      "activity": 7,
+      "maximum": 8
+    },
+    "schedule": "Pire le matin au réveil (raideur 30min), améliore progressivement en journée avec mobilisation, aggravation fin après-midi après travail bureau",
+    "daily_variation": "Douleur maximale matin (8/10), minimale midi après mobilisation (5/10), réaugmentation fin d'après-midi (7/10), douleur nocturne interruption sommeil 2-3x/semaine",
+    "aggravating_factors": [
+      "Position assise prolongée (>30min)",
+      "tousser",
+      "Valsalva",
+      "levée de charges légères (>2kg)",
+      "flexion avant",
+      "mouvements brusques",
+      "activités domestiques",
+      "marche sur terrains inégaux"
+    ],
+    "relieving_factors": [
+      "Repos allongé position fléchie (améliore 2-3 points)",
+      "antalgiques (ibuprofène 400mg améliore 2-3 points, depuis 1 semaine)",
+      "massages doux par partenaire",
+      "mobilisation active douce",
+      "application chaleur"
+    ],
+    "evolution": "Semaine 1 = douleur extrême 9/10 incapacité quasi-totale; Semaine 2-3 = plateau douleur 7-8/10 avec légère amélioration; Semaine 4 (actuelle) = stabilisation 6-7/10 avec amélioration douleur du sommeil"
+  },
+
+  "section_5_pain_mechanisms": {
+    "articular": true,
+    "myofascial": true,
+    "neurological": false,
+    "central_sensitization": false,
+    "sensorimotor_deficit": true,
+    "sensations": {
+      "sourde": true,
+      "brulante": true,
+      "aigue": false,
+      "piquante": false,
+      "irradiante": false,
+      "engourdie": false
+    },
+    "observations": "Douleur mécanique aiguë prédominante L5-S1, sans atteinte neurologique"
+  },
+
+  "section_6_tests": {
+    "lumbar_mobility": {
+      "flexion": { "value": "45 cm", "grade": 4, "nrs": 7 },
+      "extension": { "value": "10°", "grade": 4, "nrs": 7 },
+      "lateral_flexion_right": { "value": "25°", "grade": 4, "nrs": 5 },
+      "lateral_flexion_left": { "value": "18°", "grade": 4, "nrs": 8 },
+      "rotation_right": { "value": "25°", "grade": 4, "nrs": 6 },
+      "rotation_left": { "value": "20°", "grade": 4, "nrs": 7 },
+      "combined_movements": {
+        "description": "Flexion-rotation gauche extrêmement limitée",
+        "nrs": 9
+      }
+    },
+    "neuro_tests": {
+      "slr_right_deg": 70,
+      "slr_left_deg": 65,
+      "slr_asymmetry_deg": 5,
+      "slump": "Complet",
+      "pkb": "Complet"
+    },
+    "neurology": {
+      "strength_mrc": "5/5 bilatéral",
+      "reflexes": "Normaux",
+      "sensation": "Normale bilatérale",
+      "meningeal_signs": false
+    },
+    "muscular": {
+      "tension": "Importante",
+      "trigger_points": true,
+      "spasm": true,
+      "fatigability": true
+    }
+  },
+
+  "section_7_questionnaires": {
+    "sbt": { "score": 4, "interpretation": "Faible-Modéré" },
+    "csi": { "score": 18, "interpretation": "Faible" },
+    "odi": { "score": 52, "interpretation": "Modéré" },
+    "pcs": { "score": 16, "interpretation": "Faible-borderline" },
+    "hads": { "anxiety": 6, "depression": 3 },
+    "fabq": { "work": 18, "activity": 14 },
+    "wai": 28,
+    "ipaq": {
+      "level": "Sédentaire",
+      "met_min_week": 600
+    },
+    "psfs": [
+      { "activity": "Travail bureau", "score": 2 },
+      { "activity": "Jogging", "score": 0 },
+      { "activity": "Ménage et courses", "score": 1 }
+    ],
+    "quality_of_life": {
+      "tool": "EQ-5D",
+      "score": 55
+    }
+  },
+
+  "section_8_red_flags": {
+    "red_flags": false,
+    "contraindications": "Aucune absolue",
+    "allergies": ["Pénicilline"],
+    "medications": [
+      "Ibuprofène 400mg",
+      "Contraceptif oral Yaz"
+    ],
+    "general_state": "Stable"
+  },
+
+  "section_10_management_plan": {
+    "therapy_frequency": "3/semaine → 2/semaine → 1/semaine",
+    "manual_therapy": true,
+    "exercise_therapy": true,
+    "neurodynamic_therapy": false,
+    "patient_education": true,
+    "additional_modalities": [
+      "Repos partiel",
+      "Télétravail",
+      "Chaleur",
+      "AINS",
+      "Support lombaire"
+    ]
+  },
+
+  "section_12_prognosis": {
+    "treatment_duration": "2-8 semaines",
+    "sessions_expected": "12-16",
+    "prognosis": "Excellent",
+    "short_term_goals": "Réduction douleur, amélioration mobilité",
+    "long_term_goals": "Retour jogging, douleur 0-1/10"
+  },
+
+  "section_18_quality_control": {
+    "extraction_confidence_percent": 95,
+    "data_complete": true,
+    "manual_review_required": false,
+    "modified_by": "Laurent Mercier",
+    "modification_date": "25/01/2026"
+  }
+}

@@ -1,19 +1,21 @@
 
-import {Header, headerSchema} from "./models/header"
-import {InfoAdmin, infoAdminSchema} from "./models/infoAdmin"
-import {AntropoMetric, antropoMetricSchema} from "./models/antropometric"
-import { PathologieLombaire, pathologieLombaireSchema } from "./models/pathologieLombaire";
-import { Symptome, symptomeSchema } from "./models/symptome";
-import { MecanismeDouleur, mecanismeDouleurSchema } from "./models/mecanismeDouleur";
-import { Satisfaction, satisfactionSchema } from "./models/satisfaction";
-import { Observation, observationSchema } from "./models/observationEtNotes";
-import { Hypothese,hypotheseSchema } from "./models/hypothese";
-import { ControleQuality, controleQualitySchema } from "./models/controleQuality";
-import { FonctioMobiNeuro, fonctioMobiNeuroSchema } from "./models/TestsFonctioMobiNeuro";
+import {Header, headerSchema} from "./models/SectionHeader"
+import {InfoAdmin, infoAdminSchema} from "./models/SectionInfoAdmin"
+import {AntropoMetric, antropoMetricSchema} from "./models/SectionAntropometric"
+import { PathologieLombaire, pathologieLombaireSchema } from "./models/SectionPathologieLombaire";
+import { Symptome, symptomeSchema } from "./models/SectionSymptome";
+import { MecanismeDouleur, mecanismeDouleurSchema } from "./models/SectionMecanismeDouleur";
+import { Satisfaction, satisfactionSchema } from "./models/SectionSatisfaction";
+import { Observation, observationSchema } from "./models/SectionObservationEtNotes";
+import { Hypothese,hypotheseSchema } from "./models/SectionHypothese";
+import { ControleQuality, controleQualitySchema } from "./models/SectionControleQuality";
+import { FonctioMobiNeuro, fonctioMobiNeuroSchema } from "./models/SectionTestsFonctioMobiNeuro";
+import { QuestionnaireValide, questionnaireValideSchema } from "./models/SectionQuestionnaireValide";
+
 import * as fs from 'fs';
 const Sections  = fs.readFileSync('file.txt','utf8').split("SECTION")
 
-
+const startTime = performance.now();
 let header = new Header() 
 let infoAdmin = new InfoAdmin()
 let antropoMetric =  new AntropoMetric()
@@ -25,7 +27,7 @@ let observationEtNotes = new Observation()
 let hypothese = new Hypothese()
 let controleQuality = new ControleQuality()
 let fonctioMobiNeuro = new FonctioMobiNeuro()
-
+let questionnaireValide = new QuestionnaireValide()
 type SectionHandler = {
   match: string;
   target: unknown;
@@ -87,11 +89,17 @@ const SECTION_HANDLERS: SectionHandler[] = [
     match :"TESTS FONCTIONNELS - MOBILITÉ LOMBAIRE - TESTS NEURODYNAMIQUES - SIGNES NEUROLOGIQUES ",
     target: fonctioMobiNeuro,
     schema: fonctioMobiNeuroSchema
+  },
+  {
+    match : "QUESTIONNAIRES VALIDÉS - SCORES [À remplir si indiqué]",
+    target : questionnaireValide,
+    schema : questionnaireValideSchema,
   }
 ];
 
 // Their is probably better than this awful else if list
 //It work for now
+
 Sections.forEach(section => {
   const handler = SECTION_HANDLERS.find(h =>
     section.toLowerCase().includes(h.match.toLowerCase())
@@ -113,6 +121,9 @@ Sections.forEach(section => {
     console.log(observationEtNotes)
     console.log(hypothese)
     console.log(controleQuality)
+    const endTime = performance.now();
+    const elapsedTime = endTime - startTime;
+    console.log(`Time for parsing file : ${elapsedTime} ms`);
 // ------------------------------------
 
 function BuildObject(section : string, objectToBuild : any , _schema : any){
