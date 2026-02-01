@@ -12,7 +12,7 @@ const SENSATIONS = [
 type Sensation = typeof SENSATIONS[number];
 
 
-export class MecanismeDouleur{
+export class MecanismeDeDouleur{
     douleurArticulaire! : string
     douleurMyofasciale ! : string
     douleurNeurologique ! : string
@@ -23,15 +23,15 @@ export class MecanismeDouleur{
 }
 
 
-type MecanismeDouleurSchema = {
-    property: keyof MecanismeDouleur;  
-    parser: (obj: MecanismeDouleur, raw: string) => void; 
+type MecanismeDeDouleurSchema = {
+    property: keyof MecanismeDeDouleur;  
+    parser: (obj: MecanismeDeDouleur, raw: string) => void; 
     keyText: string; 
 };
 
 
 //TODO caractère sensation require underline handeling
-export const mecanismeDouleurSchema: MecanismeDouleurSchema[] = [
+export const mecanismeDeDouleurSchema: MecanismeDeDouleurSchema[] = [
     { property: "douleurArticulaire", keyText: "Douleur Articulaire", parser: (obj, v) => obj.douleurArticulaire = v },
     { property: "douleurMyofasciale", keyText: "Douleur Myofasciale", parser: (obj, v) => obj.douleurMyofasciale = v },
     { property: "douleurNeurologique", keyText: "Douleur Neurologique", parser: (obj, v) => obj.douleurNeurologique = v },
